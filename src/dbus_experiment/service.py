@@ -22,6 +22,6 @@ if __name__ == "__main__":
     loop = GLib.MainLoop()
     object = Time()
 
-    print("Started")
+    print("Started, press Ctrl-C to stop")
     loop.run()
 
