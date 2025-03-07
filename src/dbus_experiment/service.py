@@ -10,7 +10,7 @@ class Time(dbus.service.Object):
 
     @dbus.service.method("com.paulcalnan.Time", out_signature="s")
     def current_time(self):
-        formatter = "%d-%m-%Y %H:%M:%S"
+        formatter = "%Y-%m-%d %H:%M:%S"
         return time.strftime(formatter)
 
 if __name__ == "__main__":
