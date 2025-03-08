@@ -15,7 +15,6 @@ Run `poetry install` to install dependencies in the local virtual environment.
 
 ```bash
 poetry install
-poetry run python3 src/dbus_experiment/service.py &
-poetry run python3 src/dbus_experiment/client.py
+poetry run python3 src/dbus_experiment run-service &
+poetry run python3 src/dbus_experiment run-client
 ```
-
